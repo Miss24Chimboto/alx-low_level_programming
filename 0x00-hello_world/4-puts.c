@@ -1,6 +1,5 @@
 #include <stdio.h>
 /**
- * Added the library
  * main - void enables the code to run successfully
  (*
  *Description: prints using the put)?
@@ -8,7 +7,6 @@
  */
 int main(void)
 {
-puts("\"Programming is like building a multilingual puzzle\n");
-return (0);
+puts("\"Programming is like building a multilingual puzzle");
+return(0);
 }
-
