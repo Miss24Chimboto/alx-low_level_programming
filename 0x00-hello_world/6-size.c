@@ -2,8 +2,6 @@
 /**
  * main - void enables the code to run successfully
  *
-(*
- *Description: prints the sizes of various types)?
  *Return: 0
  */
 int main(void)
