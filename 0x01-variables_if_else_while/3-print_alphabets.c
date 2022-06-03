@@ -1,6 +1,8 @@
 #include <stdio.h>
-
-/* This prints the alphabet */
+/**
+* main - enables program to work
+* This prints the alphabet 
+*/
 int main(void)
 {
 	char c;
