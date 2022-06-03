@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
  * main - enables it to run successfully
- * Description:prints all possible different combinations of digits
- * Return: Always 0 
+ * Description: prints all possible different combinations of digits
+ * Return: 0
  */
 int main(void)
 {
