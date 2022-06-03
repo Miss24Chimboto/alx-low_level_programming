@@ -2,9 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - Entry point
+ * main - enables program to work
  *
- * Return: Always 0 (Success)
+ * Return: enables it to run successfully
  */
 int main(void)
 {
