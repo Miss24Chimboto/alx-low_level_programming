@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
 * main - enables program to work
-*(Description: This prints the alphabet)?
+* Description: This prints the alphabet
+* Return: 0
 */
 int main(void)
 {

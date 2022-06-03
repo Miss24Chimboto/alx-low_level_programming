@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
-* main - main - enables program to work
-*
-* Return: enables it to run successfully
+* main - main - enables it to run successfully
+* Description: This prints the alphabet minus q and e
+* Return: 0 
 */
 int main(void)
 {
