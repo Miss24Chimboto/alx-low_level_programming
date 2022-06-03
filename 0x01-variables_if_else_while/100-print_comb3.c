@@ -27,9 +27,9 @@ break;
 putchar(',');
 putchar(' ');
 }
-i++;
+a++;
 }
-e++;
+b++;
 }
 putchar('\n');
 return (0);
