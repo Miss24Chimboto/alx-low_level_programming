@@ -21,5 +21,5 @@ while (counter<10)
 counter++;
 _putchar('\n');
 }
-return (0);
+
 }
