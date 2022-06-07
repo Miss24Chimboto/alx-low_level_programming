@@ -16,10 +16,10 @@ while (counter<10)
 {
     for (low = 'a'; low <= 'z'; low++)
     {
-        putchar(low);
+         _putchar(low);
     }
 counter++;
-putchar('\n');
+_putchar('\n');
 }
 return (0);
 }
