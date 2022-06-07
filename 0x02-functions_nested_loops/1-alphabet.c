@@ -6,13 +6,13 @@
  * 
  * Return: 0
  */
-int main(void)
+int _putchar(char a)
 {
     char a;
-    for (a = 'a'; a <= 'z'; c++)
+    for (a = 'a'; a <= 'z'; a++)
 
-    _putchar(a)
-    _putchar('\n')
+    _putchar(a);
+    _putchar('\n');
     
     return (0);
 }
