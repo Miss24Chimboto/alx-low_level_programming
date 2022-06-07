@@ -6,7 +6,7 @@
  * 
  * Return: 0
  */
-int _putchar(void)
+void print_alphabet(void);
 {
     char a;
     for (a = 'a'; a <= 'z'; a++)
