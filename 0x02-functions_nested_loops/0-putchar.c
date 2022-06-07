@@ -5,7 +5,7 @@
  *
  * prints out _putchar followed by a newline.
  *
- * Return: 0 
+ * Return: 0
  */
 
 int main(void)
