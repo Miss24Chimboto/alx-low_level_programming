@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_alphabet - prints alphabets x 10
+ * print_alphabetx10 - prints alphabets 10 times
  *
  * main - enables it to run successfully
  *
@@ -13,7 +13,7 @@ void print_alphabet_x10(void)
 char low;
 int counter;
 
-while (counter < 10)
+while (counter <= 10)
 {
 for (low = 'a'; low <= 'z'; low++)
 {
