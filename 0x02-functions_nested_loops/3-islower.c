@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * function that checks for lower/uppercase character
+ * function_islower that checks for lower/uppercase character
  *
  * Description: function that prints the alphabe
  *
@@ -12,10 +12,10 @@ int result = 0;
 if (c >= 'a' && c <= 'z')
 {
 result = 1;
-} else
+} 
+else
 {
 result = 0;
 }
-
 return (result);
 }
