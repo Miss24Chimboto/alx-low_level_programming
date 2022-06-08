@@ -1,10 +1,8 @@
 #include "main.h"
 /**
- * Returns 1 if c is a letter, lowercase or uppercase
- *
+ * function_islower that checks for lower/uppercase character
  * Description: function that prints the alphabet 
- *
- * Return: 0
+ * Returns 1 if c is a letter, lowercase or uppercase
  */
 int _isalpha(int c)
 {
@@ -17,6 +15,5 @@ else
 {
 result = 0;
 }
-
 return (result);
 }
