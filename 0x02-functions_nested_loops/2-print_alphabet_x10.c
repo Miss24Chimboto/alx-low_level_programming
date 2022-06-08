@@ -8,16 +8,15 @@
  */
 void print_alphabet_x10(void)
 {
-char low;
-int counter;
+{
+int i, a;
 
-while (counter < 10)
+for (i = 0; i <= 9; i++)
 {
-for (low = 'a'; low <= 'z'; low++)
+for (a = 97; a <= 122; a++)
 {
-_putchar(low);
+_putchar(a);
 }
-counter++;
 _putchar('\n');
 }
 }
