@@ -9,14 +9,12 @@
 
 int _isupper(int c)
 {
-int result = 0;
 if (c >= 'A' && c <= 'Z')
 {
-result = 1;
+return = 1;
 }
 else
 {
-result = 0;
+return = 0;
 }
 }
-
