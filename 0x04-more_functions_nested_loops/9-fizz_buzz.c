@@ -25,7 +25,7 @@ else
 {
     printf("%d ", a);
 }
-printf("Buzz");
+printf("Buzz ");
 printf("\n");
 return (0);
 }
