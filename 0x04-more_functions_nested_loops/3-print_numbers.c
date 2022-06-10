@@ -1,13 +1,12 @@
 #include "main.h"
 /**
-* print_most_numbers -  prints the numbers except 2 and 4.
+* print_numbers - prints numbers 0-9
 */
 void print_numbers(void);
 {
-	int a;
-
-	for (a = 0; a < 10; a++)
-	
-    _putchar("%d", a);
-	_putchar('\n');
+	char i;
+    for (i = 0; i <= 9 ; i++)
+    
+    putchar('0' + i);
+    putchar('\n');
 }
