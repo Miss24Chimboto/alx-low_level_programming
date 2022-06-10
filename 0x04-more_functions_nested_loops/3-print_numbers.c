@@ -4,9 +4,8 @@
 */
 void print_numbers(void);
 {
-	char i;
-    for (i = 0; i <= 9 ; i++)
-    
-    putchar('0' + i);
-    putchar('\n');
+char m;
+for (m = '0'; m <= '9'; m++)
+_putchar(m);
+_putchar('\n');
 }
