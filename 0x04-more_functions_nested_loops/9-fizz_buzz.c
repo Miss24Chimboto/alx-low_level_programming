@@ -11,21 +11,21 @@ int a = 1;
 for (a = 1; a < 100; a++)
 if (a % 3 == 0 && a % 5 == 0)
 {
-    printf("FizzBuzz ");
+    _putchar("FizzBuzz ");
 }
 else if (a % 5 == 0)
 {
-    printf("Buzz ");
+    _putchar("Buzz ");
 }
 else if (a % 3 == 0)
 {
-    printf("Fizz ");
+    _putchar("Fizz ");
 }
 else
 {
-    printf("%d ", a);
+    _putchar("%d ", a);
 }
-printf("Buzz ");
-printf("\n");
+_putchar("Buzz");
+_putchar("\n");
 return (0);
 }
