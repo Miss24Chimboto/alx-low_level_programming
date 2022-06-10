@@ -7,25 +7,25 @@
  */
 int main(void)
 {
-char a = 1;
+int a = 1;
 for (a = 1; a < 100; a++)
 if (a % 3 == 0 && a % 5 == 0)
 {
-    _putchar("FizzBuzz ");
+    printf("FizzBuzz ");
 }
 else if (a % 5 == 0)
 {
-    _putchar("Buzz ");
+    printf("Buzz ");
 }
 else if (a % 3 == 0)
 {
-    _putchar("Fizz ");
+    printf("Fizz ");
 }
 else
 {
-    _putchar("%d ", a);
+    printf("%d ", a);
 }
-_putchar("Buzz");
-_putchar("\n");
+printf("Buzz");
+printf("\n");
 return (0);
 }
