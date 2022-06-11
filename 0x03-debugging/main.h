@@ -4,7 +4,7 @@
 #include <stdio.h>
 
 void positive_or_negative(int i);
-2-largest_number(int);
-print_remaining_days(int);
-convert_day
+int largest_number(int a, int b, int c);
+void print_remaining_days(int month, int day, int year);
+int convert_day(int month, int day);
 #endif /* MAIN_H */
