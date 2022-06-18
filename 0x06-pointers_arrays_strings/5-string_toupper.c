@@ -14,7 +14,7 @@ while (ch[i] != '\0')
 {
 if (ch[i] >= 'a' && ch[i] <= 'z')
 {
-ch[i] = ch[i] -32;
+ch[i] = ch[i] - 32;
 }
 i++;
 }
