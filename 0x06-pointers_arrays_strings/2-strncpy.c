@@ -3,8 +3,8 @@
  * _strncpy - function used to copy a string
  * @dest: represents the destination string
  * @src: represents the source string
- *
- * Return:dest
+ * @n: input value
+ * Return: dest
  */
 char *_strncpy(char *dest, char *src, int n)
 {
