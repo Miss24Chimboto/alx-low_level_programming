@@ -1,6 +1,6 @@
 #include"main.h"
 /**
- * string toupper - changing lowercase to uppercase
+ * string_toupper - changing lowercase to uppercase
  * @str: pointer
  *
  * Return: Char
