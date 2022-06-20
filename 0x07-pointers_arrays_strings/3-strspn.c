@@ -24,7 +24,7 @@ break;
 s++;
 }
 accept++;
-s + r;
+s = r;
 }
 return (bytes);
 }
