@@ -2,7 +2,7 @@
 
 /**
  * _strlen_recursion - a fx that returns the length of a string
- * @: s - is a pointer string
+ * @s: - is a pointer string
  *
  * Return: 0
  */
