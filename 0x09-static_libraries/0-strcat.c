@@ -25,3 +25,4 @@ b++;
 dest[a] = '\0';
 
 return (dest);
+}
