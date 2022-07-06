@@ -1,9 +1,9 @@
 #include "function_pointers.h"
 /**
-*  @size: no of elements in array
-*  @cmp: pointer to fx
 *  int_index - returns the index of the first element
-*  Return: -1 if no element matches and if size <= 0 
+*  @size: number of elements in array
+*  @cmp: pointer to fx
+*  Return: -1 if no element matches
 *  0 if function does'nt return
 */
 int int_index(int *array, int size, int (*cmp)(int))
