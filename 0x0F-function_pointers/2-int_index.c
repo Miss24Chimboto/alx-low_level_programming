@@ -2,6 +2,7 @@
 /**
 *  int_index - returns the index of the first element
 *  @size: number of elements in array
+*  @array: array to serch through
 *  @cmp: pointer to fx
 *  Return: -1 if no element matches
 *  0 if function does'nt return
