@@ -36,4 +36,7 @@ list_t *add_node_end(list_t **head, const char *str);
 /*A function that frees a list_t list*/
 void free_list(list_t *head);
 
+/*A function that writes the character c to stdout*/
+int _putchar(char c);
+
 #endif
