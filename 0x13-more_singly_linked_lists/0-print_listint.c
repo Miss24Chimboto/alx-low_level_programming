@@ -1,10 +1,9 @@
 #include "lists.h"
+#include <stdio.h>
 /**
- * print_listint - Function
+ * print_listint - prints all elements of a list
  *
- * Descrition: prints all the elements of a listint_t list.
- *
- * @h: pointer parameter of type listint_t
+ * @h: pointer parameter
  *
  * Return: returns number of nodes.
  */
