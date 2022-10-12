@@ -160,7 +160,7 @@ void shash_table_print(const shash_table_t *ht)
 	if (ht == NULL)
 		return;
 
-	node = ht->sheade != NULL)
+	node = ht->shead != NULL)
 	{
 		printf("'%s': '%s'", node->key, node->value);
 		node = node->snext;
@@ -208,5 +208,13 @@ void shash_table_delete(shash_table_t *ht)
 	node = ht->shead;
 	while (node)
 	{
-		tmp = node-}lue associate with
- *      d
+		tmp = node->snext;
+		free(node->key);
+		free(node->value);
+		free(node);
+		node = tmp;
+	}
+
+	free(head->array);
+	free(head);
+}
