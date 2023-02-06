@@ -1,13 +1,8 @@
 #!/usr/bin/python3
-
 """Defines an island perimeter measuring function."""
 
 
-
-
-
 def island_perimeter(grid):
-
     """Return the perimiter of an island.
 
     The grid represents water by 0 and land by 1.
@@ -29,8 +24,6 @@ def island_perimeter(grid):
     edges = 0
 
     size = 0
-
-
 
     for i in range(height):
 
